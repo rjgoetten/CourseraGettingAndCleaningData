@@ -106,7 +106,6 @@ Describes the activity type each of the 30 subjects performed:
 [62] "FrequencyBodyAccelerometerMagnitudeStandard.Deviation"    
 [63] "FrequencyBodyAccelerometerJerkMagnitude.mean"             
 [64] "FrequencyBodyAccelerometerJerkMagnitudeStandard.Deviation"
-
 [65] "FrequencyBodyGyroscopeMagnitude.mean"                     
 [66] "FrequencyBodyGyroscopeMagnitudeStandard.Deviation"        
 [67] "FrequencyBodyGyroscopeJerkMagnitude.mean"                 
