@@ -66,6 +66,7 @@ This script does the following:
   - Load the dplyr package
   - Create a new dataset by calculating the mean value of each variable for each activity and subject.
   - Generate a final file using the function write.table
+  
 output file is: average_tidyData.txt (180 observations - 30 subjects x 6 activities - of 66 variables)
 
 ##CodeBook
