@@ -40,15 +40,25 @@ This script does the following:
 ###4) Appropriately labels the data set with descriptive variable names.
 
   - Subsitute the variable names by using the function gsub(). The names will be as following:
+  
   "\()" to ""
+
   "^t" to “Time"
+  
   "^f" to “Frequency”
+  
   "Acc" to "Accelerometer"
+  
   "Gyro" to "Gyroscope"
+  
   "Mag" to "Magnitude"
+  
   "BodyBody" to "Body"
+  
   "-mean" to "Mean"
+  
   "-std" to "Standard Deviation"
+  
   - Check if everything is labeled correctly (View())
 
 ###5) From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
