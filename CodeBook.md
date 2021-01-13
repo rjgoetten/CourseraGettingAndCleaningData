@@ -1,33 +1,33 @@
-#CodeBook
+# CodeBook
 author: Rubia Goetten 
 
 date: 07/19/2016
 
 This CodeBook explains the tidy dataset produced by run_analysis.R
-##Project Description
+## Project Description
 
-##Study design and data processing
+## Study design and data processing
 
-###Collection of the raw data
+### Collection of the raw data
 
 The raw data for the execution of this project was obtained from the following website: 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 A README.txt is included in the zip file for further information.
 
-##Creating the tidy datafile
+## Creating the tidy datafile
 
-###Guide to create the tidy data file
+### Guide to create the tidy data file
 
 Refer to README.txt for greater details about how the tidy dataset was created.
 
-##Description of the variables in the tiny_data.txt file
+## Description of the variables in the tiny_data.txt file
 
 Dimensions of the dataset: 180 observations (30 subjects x 6 activities) of 66 variables
 
-###Subject
+### Subject
 ID of the 30 volunteers who performed the activity. Its range is from 1 to 30
 
-###Activity
+### Activity
 Describes the activity type each of the 30 subjects performed:
 
 1. WALKING
@@ -42,7 +42,7 @@ Describes the activity type each of the 30 subjects performed:
 
 6. LAYING
 
-###Features
+### Features
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
 Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
@@ -119,7 +119,7 @@ These signals were used to estimate variables of the feature vector for each pat
 [67] "FrequencyBodyGyroscopeJerkMagnitude.mean"                 
 [68] "FrequencyBodyGyroscopeJerkMagnitudeStandard.Deviation" 
 
-##Sources
+## Sources
 https://gist.github.com/JorisSchut/dbc1fc0402f28cad9b41
 
 https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/
