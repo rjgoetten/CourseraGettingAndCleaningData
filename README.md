@@ -1,4 +1,4 @@
-# CourseraGettingAndCleaningData
+# Coursera: Getting And Cleaning Data
 
 This is my own project for Coursera "Getting and Cleaning Data" course. The code is written in R; the source code is run_analysis.R.
 
